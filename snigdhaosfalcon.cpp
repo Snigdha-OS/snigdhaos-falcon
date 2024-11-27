@@ -36,3 +36,28 @@ void SnigdhaOSFalcon::updatePackageList() {
     QString installed = proc.readAllStandardOutput();
     installed_packages = installed.split("\n");
 }
+
+void SnigdhaOSFalcon::updateCheckBoxes() {
+    updatePackageList();
+    for (auto element : getCheckboxes()) {
+        auto string = element->property("packageName").toString();
+        element->setChecked(installed_packages.contains(string));
+    }
+}
+
+void SnigdhaOSFalcon::lockCheckBoxes(bool locked) {
+    for (auto element : getCheckboxes()) {
+        element->setAttribute(Qt::WA_TransparentForMouseEvents, locked);
+        element->setFocusPolicy(locked ? Qt::NoFocus : Qt::StrongFocus);
+    }
+    this->ui->applyButtons->setAttribute(Qt::WA_TransparentForMouseEvents, locked);
+    this->ui->applyButtons->setFocusPolicy(locked ? Qt::NoFocus : Qt::StrongFocus);
+}
+
+void SnigdhaOSFalcon::on_installerFinished(int, QProcess::ExitStatus) {
+    if (!allowUnlock){
+        return;
+    }
+    updateCheckBoxes();
+    lockCheckBoxes(false);
+}
