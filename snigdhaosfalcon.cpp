@@ -61,3 +61,55 @@ void SnigdhaOSFalcon::on_installerFinished(int, QProcess::ExitStatus) {
     updateCheckBoxes();
     lockCheckBoxes(false);
 }
+
+void SnigdhaOSFalcon::on_applyButtons_clicked(QAbstractButton* button) {
+    if (installer.state() != installer.NotRunning){
+        return;
+    }
+    if (ui->applyButtons->buttonRole(button) == ui->applyButtons->ApplyRole) {
+        updatePackageList();
+        QStringList removed_packages;
+        QStringList added_packages;
+
+        for (auto element : getCheckboxes()) {
+            auto packagename = element->property("packageName").toString();
+            auto checked = element->isChecked();
+
+            if (installed_packages.contains(packagename)){
+                if (!checked) {
+                    removed_packages.append(std::move(packagename));
+                }
+                else {
+                    if (checked) {
+                        added_packages.append(std::move(packagename));
+                    }
+                }
+            }
+        }
+
+        if (added_packages.empty() && removed_packages.empty()){
+            QMessageBox::warning(this, "Snigdha OS Falcon", "The current packages/config is already applied on your machine!");
+            return;
+        }
+        allowUnlock = false;
+        lockCheckBoxes(true);
+        QString cmd;
+        if (!added_packages.empty()){
+            cmd.append("pacman -S --noconfirm " + added_packages.join(" ") + ";");
+        }
+        if (!removed_packages.empty()){
+            cmd.append("pacman -Rns --noconfirm " + removed_packages.join(" ") + ";");
+        }
+
+        cmd += "read -p 'Press Enter↵ to Exit!'";
+
+        auto paramlist = QStringList();
+        paramlist << "-s" << "pkexec /usr/share/snigdhaos/scripts/snigdhaos-falcon/shellrunner.sh";
+        paramlist << cmd;
+        allowUnlock = true;
+        installer.start("/usr/lib/snigdhaos/launch-terminal",paramlist);
+    }
+    else {
+        updateCheckBoxes();
+    }
+}

@@ -20,6 +20,9 @@
       <property name="standardButtons">
        <set>QDialogButtonBox::StandardButton::Apply|QDialogButtonBox::StandardButton::Discard</set>
       </property>
+      <property name="centerButtons">
+       <bool>true</bool>
+      </property>
      </widget>
     </item>
     <item row="0" column="0">
@@ -42,8 +45,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>804</width>
-             <height>2101</height>
+             <width>744</width>
+             <height>2125</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_6">
@@ -54,7 +57,7 @@
               </property>
               <layout class="QGridLayout" name="gridLayout_19">
                <item row="0" column="2">
-                <widget class="QCheckBox" name="checkBox_freecol">
+                <widget class="QCheckBox" name="checkBox_bloodhound">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Turn-based strategy game based on Colonization.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -79,7 +82,7 @@
                 </widget>
                </item>
                <item row="5" column="2">
-                <widget class="QCheckBox" name="checkBox_ksirk">
+                <widget class="QCheckBox" name="checkBox_koadic">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A &lt;span style=&quot; font-style:italic;&quot;&gt;risk&lt;/span&gt;-styled game in which players try to conquer the world by deciding which area to be invaded next.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -104,7 +107,7 @@
                 </widget>
                </item>
                <item row="5" column="1">
-                <widget class="QCheckBox" name="checkBox_kreversi">
+                <widget class="QCheckBox" name="checkBox_dnscat2">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A &lt;span style=&quot; font-style:italic;&quot;&gt;reversi&lt;/span&gt; implementation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -129,7 +132,7 @@
                 </widget>
                </item>
                <item row="5" column="0">
-                <widget class="QCheckBox" name="checkBox_wesnoth">
+                <widget class="QCheckBox" name="checkBox_mimikartz">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Free, turn-based tactical strategy game with a high fantasy theme, featuring both single-player, and online/hotseat multiplayer combat.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -154,7 +157,7 @@
                 </widget>
                </item>
                <item row="0" column="1">
-                <widget class="QCheckBox" name="checkBox_freeciv">
+                <widget class="QCheckBox" name="checkBox_puppy">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Multiuser clone of the famous Microprose game of Civilization.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -179,7 +182,7 @@
                 </widget>
                </item>
                <item row="0" column="0">
-                <widget class="QCheckBox" name="checkBox_singularity">
+                <widget class="QCheckBox" name="checkBox_empire">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Turn-based single player strategy/simulation about a AI hiding, growing and evolving.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -204,7 +207,7 @@
                 </widget>
                </item>
                <item row="6" column="0">
-                <widget class="QCheckBox" name="checkBox_18">
+                <widget class="QCheckBox" name="checkBox_meterpreter">
                  <property name="text">
                   <string>Meterpreter</string>
                  </property>
@@ -220,7 +223,7 @@
                 </widget>
                </item>
                <item row="6" column="1">
-                <widget class="QCheckBox" name="checkBox_19">
+                <widget class="QCheckBox" name="checkBox_beroot">
                  <property name="text">
                   <string>BeRoot</string>
                  </property>
@@ -236,7 +239,7 @@
                 </widget>
                </item>
                <item row="6" column="2">
-                <widget class="QCheckBox" name="checkBox_20">
+                <widget class="QCheckBox" name="checkBox_pwncat">
                  <property name="text">
                   <string>Pwncat</string>
                  </property>
@@ -261,7 +264,7 @@
               </property>
               <layout class="QGridLayout" name="gridLayout_8">
                <item row="3" column="3">
-                <widget class="QCheckBox" name="checkBox_3">
+                <widget class="QCheckBox" name="checkBox_searchsploit">
                  <property name="text">
                   <string>SearchSploit</string>
                  </property>
@@ -277,9 +280,9 @@
                 </widget>
                </item>
                <item row="1" column="0">
-                <widget class="QCheckBox" name="checkBox_kapman">
+                <widget class="QCheckBox" name="checkBox_jsqlinjection">
                  <property name="toolTip">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A clone of &lt;span style=&quot; font-style:italic;&quot;&gt;PacMan&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A Java application for automatic SQL database injection.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                  <property name="text">
                   <string>jSQL Injection</string>
@@ -297,14 +300,14 @@
                   <bool>false</bool>
                  </property>
                  <property name="packageName" stdset="0">
-                  <string>kapman</string>
+                  <string>jsql-injection	</string>
                  </property>
                 </widget>
                </item>
                <item row="0" column="3">
-                <widget class="QCheckBox" name="checkBox_Hedgewars">
+                <widget class="QCheckBox" name="checkBox_ptf">
                  <property name="toolTip">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Yet another Worms clone, considered to be better than its predecessor by many. Take turns to blast your opponents into oblivion with comedic results! Best in Multiplayer.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The Penetration Testers Framework: Way for modular support for up-to-date tools.	&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                  <property name="text">
                   <string>PTF</string>
@@ -322,14 +325,14 @@
                   <bool>false</bool>
                  </property>
                  <property name="packageName" stdset="0">
-                  <string>hedgewars</string>
+                  <string>ptf</string>
                  </property>
                 </widget>
                </item>
                <item row="1" column="2">
-                <widget class="QCheckBox" name="checkBox_kbreakout">
+                <widget class="QCheckBox" name="checkBox_armitage">
                  <property name="toolTip">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Breakout&lt;/span&gt;-style game.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A graphical cyber attack management tool for Metasploit.	&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                  <property name="text">
                   <string>Armitage</string>
@@ -347,14 +350,14 @@
                   <bool>false</bool>
                  </property>
                  <property name="packageName" stdset="0">
-                  <string>kbreakout</string>
+                  <string>armitage</string>
                  </property>
                 </widget>
                </item>
                <item row="2" column="3">
-                <widget class="QCheckBox" name="checkBox_quadrapassel">
+                <widget class="QCheckBox" name="checkBox_ropper">
                  <property name="toolTip">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A &lt;span style=&quot; font-style:italic;&quot;&gt;Tetris&lt;/span&gt; remake for GNOME.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Show information about binary files and find gadgets to build rop chains for different architectures.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                  <property name="text">
                   <string>Ropper</string>
@@ -372,12 +375,12 @@
                   <bool>false</bool>
                  </property>
                  <property name="packageName" stdset="0">
-                  <string>quadrapassel</string>
+                  <string>ropper</string>
                  </property>
                 </widget>
                </item>
                <item row="4" column="0">
-                <widget class="QCheckBox" name="checkBox_4">
+                <widget class="QCheckBox" name="checkBox_xsser">
                  <property name="text">
                   <string>XSSer</string>
                  </property>
@@ -393,9 +396,9 @@
                 </widget>
                </item>
                <item row="3" column="1">
-                <widget class="QCheckBox" name="checkBox">
+                <widget class="QCheckBox" name="checkBox_exploitdb">
                  <property name="text">
-                  <string>Exploi-DB</string>
+                  <string>Exploit-DB</string>
                  </property>
                  <property name="icon">
                   <iconset theme="package-x-generic"/>
@@ -406,12 +409,18 @@
                    <height>42</height>
                   </size>
                  </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>exploit-db</string>
+                 </property>
                 </widget>
                </item>
                <item row="2" column="1">
-                <widget class="QCheckBox" name="checkBox_ltris">
+                <widget class="QCheckBox" name="checkBox_shellnoob">
                  <property name="toolTip">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Arcade version of Tetris&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A toolkit that eases the writing and debugging of shellcode.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                  <property name="text">
                   <string>ShellNoob</string>
@@ -429,14 +438,14 @@
                   <bool>false</bool>
                  </property>
                  <property name="packageName" stdset="0">
-                  <string>ltris</string>
+                  <string>shellnoob</string>
                  </property>
                 </widget>
                </item>
                <item row="2" column="0">
-                <widget class="QCheckBox" name="checkBox_lbreakout2">
+                <widget class="QCheckBox" name="checkBox_routersploit">
                  <property name="toolTip">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Breakout-style arcade game in the manner of Arkanoid&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;An open-source exploitation framework dedicated to embedded devices.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                  <property name="text">
                   <string>RouterSploit</string>
@@ -454,14 +463,14 @@
                   <bool>false</bool>
                  </property>
                  <property name="packageName" stdset="0">
-                  <string>lbreakout2</string>
+                  <string>routersploit</string>
                  </property>
                 </widget>
                </item>
                <item row="0" column="0">
-                <widget class="QCheckBox" name="checkBox_bomber">
+                <widget class="QCheckBox" name="checkBox_metasploit">
                  <property name="toolTip">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A 2D game with a goal by hitting targets with bombs before their plane crashes into them.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Advanced open-source platform for developing, testing, and using exploit code&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                  <property name="text">
                   <string>Metasploit</string>
@@ -479,14 +488,14 @@
                   <bool>false</bool>
                  </property>
                  <property name="packageName" stdset="0">
-                  <string>bomber</string>
+                  <string>metasploit</string>
                  </property>
                 </widget>
                </item>
                <item row="1" column="1">
-                <widget class="QCheckBox" name="checkBox_kbounce">
+                <widget class="QCheckBox" name="checkBox_sqlmap">
                  <property name="toolTip">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Building walls to limit amount of space occupied by two balls bouncing off the walls&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatic SQL injection and database takeover tool.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                  <property name="text">
                   <string>sqlmap</string>
@@ -504,14 +513,14 @@
                   <bool>false</bool>
                  </property>
                  <property name="packageName" stdset="0">
-                  <string>kbounce</string>
+                  <string>sqlmap</string>
                  </property>
                 </widget>
                </item>
                <item row="2" column="2">
-                <widget class="QCheckBox" name="checkBox_mari0">
+                <widget class="QCheckBox" name="checkBox_ysoserial">
                  <property name="toolTip">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The Mario game with Portal gun mechanics.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                  <property name="text">
                   <string>ysoserial</string>
@@ -529,14 +538,14 @@
                   <bool>false</bool>
                  </property>
                  <property name="packageName" stdset="0">
-                  <string>mari0</string>
+                  <string>ysoserial</string>
                  </property>
                 </widget>
                </item>
                <item row="1" column="3">
-                <widget class="QCheckBox" name="checkBox_ksnakeduel">
+                <widget class="QCheckBox" name="checkBox_beef">
                  <property name="toolTip">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Snake&lt;/span&gt;-like game for 2 players which compete to survive longer than the opponent.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The Browser Exploitation Framework that focuses on the web browser.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                  <property name="text">
                   <string>BeeF</string>
@@ -554,14 +563,14 @@
                   <bool>false</bool>
                  </property>
                  <property name="packageName" stdset="0">
-                  <string>ksnakeduel</string>
+                  <string>beef</string>
                  </property>
                 </widget>
                </item>
                <item row="0" column="2">
-                <widget class="QCheckBox" name="checkBox_Granatier">
+                <widget class="QCheckBox" name="checkBox_sqlninja">
                  <property name="toolTip">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A clone of &lt;span style=&quot; font-style:italic;&quot;&gt;Bomberman&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A tool targeted to exploit SQL Injection vulnerabilities on a web application that uses Microsoft SQL Server as its back-end.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                  <property name="text">
                   <string>SQL Ninja</string>
@@ -579,12 +588,12 @@
                   <bool>false</bool>
                  </property>
                  <property name="packageName" stdset="0">
-                  <string>granatier</string>
+                  <string>sqlninja</string>
                  </property>
                 </widget>
                </item>
                <item row="3" column="2">
-                <widget class="QCheckBox" name="checkBox_2">
+                <widget class="QCheckBox" name="checkBox_pwntools">
                  <property name="text">
                   <string>Pwntools</string>
                  </property>
@@ -597,12 +606,18 @@
                    <height>42</height>
                   </size>
                  </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>exploit-db</string>
+                 </property>
                 </widget>
                </item>
                <item row="3" column="0">
-                <widget class="QCheckBox" name="checkBox_teeworlds">
+                <widget class="QCheckBox" name="checkBox_commix">
                  <property name="toolTip">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Fast-paced 2D multiplayer shooter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automated All-in-One OS Command Injection and Exploitation Tool.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                  <property name="text">
                   <string>Commix</string>
@@ -620,14 +635,14 @@
                   <bool>false</bool>
                  </property>
                  <property name="packageName" stdset="0">
-                  <string>teeworlds</string>
+                  <string>commix</string>
                  </property>
                 </widget>
                </item>
                <item row="0" column="1">
-                <widget class="QCheckBox" name="checkBox_chromiumbsu">
+                <widget class="QCheckBox" name="checkBox_exploitpack">
                  <property name="toolTip">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Fast paced, arcade-style, top-scrolling space shooter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Exploit Pack - The next generation exploit framework.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                  <property name="text">
                   <string>Exploit Pack</string>
@@ -645,7 +660,7 @@
                   <bool>false</bool>
                  </property>
                  <property name="packageName" stdset="0">
-                  <string>chromium-bsu</string>
+                  <string>exploitpack</string>
                  </property>
                 </widget>
                </item>
@@ -878,6 +893,9 @@
                  <property name="tristate">
                   <bool>false</bool>
                  </property>
+                 <property name="packageName" stdset="0">
+                  <string>spiderfoot</string>
+                 </property>
                 </widget>
                </item>
                <item row="2" column="1">
@@ -899,6 +917,9 @@
                  </property>
                  <property name="tristate">
                   <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>masscan</string>
                  </property>
                 </widget>
                </item>
@@ -922,6 +943,9 @@
                  <property name="tristate">
                   <bool>false</bool>
                  </property>
+                 <property name="packageName" stdset="0">
+                  <string>zmap</string>
+                 </property>
                 </widget>
                </item>
               </layout>
@@ -934,7 +958,7 @@
               </property>
               <layout class="QGridLayout" name="gridLayout_15">
                <item row="0" column="1">
-                <widget class="QCheckBox" name="checkBox_angband">
+                <widget class="QCheckBox" name="checkBox_faraday">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Roguelike dungeon exploration game based on the writings of JRR Tolkien.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -959,7 +983,7 @@
                 </widget>
                </item>
                <item row="0" column="2">
-                <widget class="QCheckBox" name="checkBox_stonesoup">
+                <widget class="QCheckBox" name="checkBox_serpico">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Original dungeon crawl game&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -984,7 +1008,7 @@
                 </widget>
                </item>
                <item row="0" column="3">
-                <widget class="QCheckBox" name="checkBox_cataclysm">
+                <widget class="QCheckBox" name="checkBox_magictree">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Post-apocalyptic roguelike.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1009,7 +1033,7 @@
                 </widget>
                </item>
                <item row="3" column="1">
-                <widget class="QCheckBox" name="checkBox_glhack">
+                <widget class="QCheckBox" name="checkBox_lair">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;An OpenGL-based clone of NetHack.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1034,7 +1058,7 @@
                 </widget>
                </item>
                <item row="0" column="0">
-                <widget class="QCheckBox" name="checkBox_rogue">
+                <widget class="QCheckBox" name="checkBox_dradis">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Original dungeon crawl game&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1059,7 +1083,7 @@
                 </widget>
                </item>
                <item row="3" column="0">
-                <widget class="QCheckBox" name="checkBox_dwarffortress">
+                <widget class="QCheckBox" name="checkBox_defectdojo">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Single-player fantasy game. You control a dwarven outpost or an adventurer in a randomly generated persistent world.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1093,7 +1117,7 @@
               </property>
               <layout class="QGridLayout" name="gridLayout_12">
                <item row="0" column="1">
-                <widget class="QCheckBox" name="checkBox_warsow">
+                <widget class="QCheckBox" name="checkBox_ghidra">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;fast paced multiplayer FPS focusing on movement and trick jumps.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1118,7 +1142,7 @@
                 </widget>
                </item>
                <item row="0" column="0">
-                <widget class="QCheckBox" name="checkBox_sauerbraten">
+                <widget class="QCheckBox" name="checkBox_radare2">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Improved version of the Cube engine.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1143,7 +1167,7 @@
                 </widget>
                </item>
                <item row="0" column="2">
-                <widget class="QCheckBox" name="checkBox_xonotic">
+                <widget class="QCheckBox" name="checkBox_angr">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;fast paced multiplayer FPS focusing on movement and trick jumps.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1177,7 +1201,7 @@
               </property>
               <layout class="QGridLayout" name="gridLayout_9">
                <item row="0" column="1">
-                <widget class="QCheckBox" name="checkBox_kajongg">
+                <widget class="QCheckBox" name="checkBox_ettercap">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;An implementation of &lt;a href=&quot;https://en.wikipedia.org/wiki/Mahjong&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#646464;&quot;&gt;Mahjong&lt;/span&gt;&lt;/a&gt; for 4 players&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1202,7 +1226,7 @@
                 </widget>
                </item>
                <item row="1" column="0">
-                <widget class="QCheckBox" name="checkBox_lskat">
+                <widget class="QCheckBox" name="checkBox_dsniff">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A variation of &lt;a href=&quot;https://en.wikipedia.org/wiki/Skat_(card_game)&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#646464;&quot;&gt;Skat&lt;/span&gt;&lt;/a&gt; card game for two players.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1227,7 +1251,7 @@
                 </widget>
                </item>
                <item row="0" column="3">
-                <widget class="QCheckBox" name="checkBox_ksquares">
+                <widget class="QCheckBox" name="checkBox_netcat">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A &lt;a href=&quot;https://en.wikipedia.org/wiki/Dots_and_Boxes&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#646464;&quot;&gt;dots-and-boxes&lt;/span&gt;&lt;/a&gt; game for two players&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1252,7 +1276,7 @@
                 </widget>
                </item>
                <item row="0" column="2">
-                <widget class="QCheckBox" name="checkBox_KPatience">
+                <widget class="QCheckBox" name="checkBox_arpspoof">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A set of solitarire card games&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1277,7 +1301,7 @@
                 </widget>
                </item>
                <item row="0" column="0">
-                <widget class="QCheckBox" name="checkBox_Aisleriot">
+                <widget class="QCheckBox" name="checkBox_wireshark">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A collection of solitaire card games.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1302,7 +1326,7 @@
                 </widget>
                </item>
                <item row="1" column="1">
-                <widget class="QCheckBox" name="checkBox_gnomechess">
+                <widget class="QCheckBox" name="checkBox_hping3">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A 2D chess game which can use third party chess engines.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1327,7 +1351,7 @@
                 </widget>
                </item>
                <item row="1" column="2">
-                <widget class="QCheckBox" name="checkBox_pychess">
+                <widget class="QCheckBox" name="checkBox_yersinia">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;An advanced chess client for linux following the GNOME Human Interface Guidelines&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1352,7 +1376,7 @@
                 </widget>
                </item>
                <item row="1" column="3">
-                <widget class="QCheckBox" name="checkBox_knights">
+                <widget class="QCheckBox" name="checkBox_scapy">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Chess board by KDE with XBoard protocol support.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1386,7 +1410,7 @@
               </property>
               <layout class="QGridLayout" name="gridLayout_16">
                <item row="0" column="1">
-                <widget class="QCheckBox" name="checkBox_naev">
+                <widget class="QCheckBox" name="checkBox_gophish">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Open source, 2D space trading and combat game, taking inspiration from the Escape Velocity series.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1411,7 +1435,7 @@
                 </widget>
                </item>
                <item row="0" column="2">
-                <widget class="QCheckBox" name="checkBox_minetest">
+                <widget class="QCheckBox" name="checkBox_kingphisher">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Voxel-based sandbox game engine and game.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1436,7 +1460,7 @@
                 </widget>
                </item>
                <item row="0" column="0">
-                <widget class="QCheckBox" name="checkBox_endlesssky">
+                <widget class="QCheckBox" name="checkBox_set">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Open source, 2D space trading and combat game similar to the classic Escape Velocity series.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1461,7 +1485,7 @@
                 </widget>
                </item>
                <item row="0" column="3">
-                <widget class="QCheckBox" name="checkBox_openbve">
+                <widget class="QCheckBox" name="checkBox_phishx">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Free-as-in-freedom train simulator placed in the public domain.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1495,7 +1519,7 @@
               </property>
               <layout class="QGridLayout" name="gridLayout_18">
                <item row="0" column="1">
-                <widget class="QCheckBox" name="checkBox_widelands">
+                <widget class="QCheckBox" name="checkBox_w3af">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Slow-paced strategy like &amp;quot;the Settlers 2&amp;quot;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1520,7 +1544,7 @@
                 </widget>
                </item>
                <item row="0" column="0">
-                <widget class="QCheckBox" name="checkBox_0ad">
+                <widget class="QCheckBox" name="checkBox_openvas">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;3D and historically-based real-time strategy game, alpha stage. Based on the Age of Empires series.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1545,7 +1569,7 @@
                 </widget>
                </item>
                <item row="4" column="0">
-                <widget class="QCheckBox" name="checkBox_megaglest">
+                <widget class="QCheckBox" name="checkBox_nessus">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Fork of Glest, a 3D real-time strategy game in a fantastic world.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1570,7 +1594,7 @@
                 </widget>
                </item>
                <item row="0" column="2">
-                <widget class="QCheckBox" name="checkBox_openra">
+                <widget class="QCheckBox" name="checkBox_nikto">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Real-time strategy game written in C# and based on the Command &amp;amp; Conquer game franchise&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1595,7 +1619,7 @@
                 </widget>
                </item>
                <item row="4" column="1">
-                <widget class="QCheckBox" name="checkBox_springlobby">
+                <widget class="QCheckBox" name="checkBox_vuls">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A free cross-platform lobby client for the Spring RTS project&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1629,7 +1653,7 @@
               </property>
               <layout class="QGridLayout" name="gridLayout_20">
                <item row="0" column="0">
-                <widget class="QCheckBox" name="checkBox_lincity">
+                <widget class="QCheckBox" name="checkBox_kismet">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;City simulation game in which you are required to build and maintain a city. You can win the game either by building a sustainable economy or by evacuating all citizens with spaceships.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1654,7 +1678,7 @@
                 </widget>
                </item>
                <item row="0" column="2">
-                <widget class="QCheckBox" name="checkBox_simutrans">
+                <widget class="QCheckBox" name="checkBox_reaver">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Another Transport simulation that works on linux with sdl.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1679,7 +1703,7 @@
                 </widget>
                </item>
                <item row="0" column="1">
-                <widget class="QCheckBox" name="checkBox_konquest">
+                <widget class="QCheckBox" name="checkBox_pixiewps">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A turn-based game in which the player wage wars by managing a fleet of spaceships and conquering other planets.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1704,7 +1728,7 @@
                 </widget>
                </item>
                <item row="3" column="0">
-                <widget class="QCheckBox" name="checkBox_openttd">
+                <widget class="QCheckBox" name="checkBox_airgeddon">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Open source clone of the Microprose game &amp;quot;Transport Tycoon Deluxe&amp;quot;, a popular game originally written by Chris Sawyer. It attempts to mimic the original game as closely as possible while extending it with new features.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1729,7 +1753,7 @@
                 </widget>
                </item>
                <item row="3" column="1">
-                <widget class="QCheckBox" name="checkBox_21">
+                <widget class="QCheckBox" name="checkBox_wifipumpkin">
                  <property name="text">
                   <string>Wifi Pumpkin</string>
                  </property>
@@ -1745,7 +1769,7 @@
                 </widget>
                </item>
                <item row="3" column="2">
-                <widget class="QCheckBox" name="checkBox_openrct2">
+                <widget class="QCheckBox" name="checkBox_aircrackng">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Free reimplementation of the game &amp;quot;RollerCoaster Tycoon 2 (RCT2)&amp;quot; with multiplayer support. It requires a copy of the original game to play it.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1779,7 +1803,7 @@
               </property>
               <layout class="QGridLayout" name="gridLayout_21">
                <item row="0" column="1">
-                <widget class="QCheckBox" name="checkBox_22">
+                <widget class="QCheckBox" name="checkBox_owaspzap">
                  <property name="text">
                   <string>OWASP ZAP</string>
                  </property>
@@ -1795,7 +1819,7 @@
                 </widget>
                </item>
                <item row="0" column="0">
-                <widget class="QCheckBox" name="checkBox_renpy">
+                <widget class="QCheckBox" name="checkBox_burpsuite">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Visual novel engine with a &lt;a href=&quot;https://www.katawa-shoujo.com/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#646464;&quot;&gt;rich repository&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1820,7 +1844,7 @@
                 </widget>
                </item>
                <item row="0" column="2">
-                <widget class="QCheckBox" name="checkBox_23">
+                <widget class="QCheckBox" name="checkBox_arachni">
                  <property name="text">
                   <string>Arachni</string>
                  </property>
@@ -1836,7 +1860,7 @@
                 </widget>
                </item>
                <item row="1" column="0">
-                <widget class="QCheckBox" name="checkBox_24">
+                <widget class="QCheckBox" name="checkBox_wfuzz">
                  <property name="text">
                   <string>Wfuzz</string>
                  </property>
@@ -1852,7 +1876,7 @@
                 </widget>
                </item>
                <item row="1" column="1">
-                <widget class="QCheckBox" name="checkBox_25">
+                <widget class="QCheckBox" name="checkBox_skipfish">
                  <property name="text">
                   <string>Skipfish</string>
                  </property>
@@ -1877,7 +1901,7 @@
               </property>
               <layout class="QGridLayout" name="gridLayout_10">
                <item row="3" column="2">
-                <widget class="QCheckBox" name="checkBox_5">
+                <widget class="QCheckBox" name="checkBox_cewl">
                  <property name="text">
                   <string>CeWL</string>
                  </property>
@@ -1893,7 +1917,7 @@
                 </widget>
                </item>
                <item row="3" column="3">
-                <widget class="QCheckBox" name="checkBox_6">
+                <widget class="QCheckBox" name="checkBox_patator">
                  <property name="text">
                   <string>Patator</string>
                  </property>
@@ -1909,7 +1933,7 @@
                 </widget>
                </item>
                <item row="0" column="3">
-                <widget class="QCheckBox" name="checkBox_kgoldrunner">
+                <widget class="QCheckBox" name="checkBox_hydra">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A platform game with the goal of collecting gold.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1934,7 +1958,7 @@
                 </widget>
                </item>
                <item row="3" column="0">
-                <widget class="QCheckBox" name="checkBox_openmw">
+                <widget class="QCheckBox" name="checkBox_medusa">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Attempt to reimplement the popular role-playing game &lt;a href=&quot;https://en.wikipedia.org/wiki/Morrowind&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#646464;&quot;&gt;Morrowind&lt;/span&gt;&lt;/a&gt;. OpenMW aims to be a fully playable, open source implementation of the game's engine.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1959,7 +1983,7 @@
                 </widget>
                </item>
                <item row="0" column="0">
-                <widget class="QCheckBox" name="checkBox_manaplus">
+                <widget class="QCheckBox" name="checkBox_johntheripper">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Serious effort to create an innovative free and open source MMORPG&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -1984,7 +2008,7 @@
                 </widget>
                </item>
                <item row="0" column="2">
-                <widget class="QCheckBox" name="checkBox_freedroidrpg">
+                <widget class="QCheckBox" name="checkBox_crunch">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Mature science fiction role playing game set in the future.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -2009,7 +2033,7 @@
                 </widget>
                </item>
                <item row="0" column="1">
-                <widget class="QCheckBox" name="checkBox_frogatto">
+                <widget class="QCheckBox" name="checkBox_hashcat">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Serious effort to create an innovative free and open source MMORPG&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -2034,7 +2058,7 @@
                 </widget>
                </item>
                <item row="3" column="1">
-                <widget class="QCheckBox" name="checkBox_SuperTux">
+                <widget class="QCheckBox" name="checkBox_rainbowcrack">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A platform game with the goal of collecting gold.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -2059,7 +2083,7 @@
                 </widget>
                </item>
                <item row="4" column="0">
-                <widget class="QCheckBox" name="checkBox_7">
+                <widget class="QCheckBox" name="checkBox_ophcrack">
                  <property name="text">
                   <string>Ophcrack</string>
                  </property>
@@ -2075,7 +2099,7 @@
                 </widget>
                </item>
                <item row="4" column="1">
-                <widget class="QCheckBox" name="checkBox_8">
+                <widget class="QCheckBox" name="checkBox_pydictor">
                  <property name="text">
                   <string>pydictor</string>
                  </property>
@@ -2091,7 +2115,7 @@
                 </widget>
                </item>
                <item row="4" column="2">
-                <widget class="QCheckBox" name="checkBox_9">
+                <widget class="QCheckBox" name="checkBox_kraken">
                  <property name="text">
                   <string>Kraken</string>
                  </property>
@@ -2116,7 +2140,7 @@
               </property>
               <layout class="QGridLayout" name="gridLayout_14">
                <item row="1" column="2">
-                <widget class="QCheckBox" name="checkBox_14">
+                <widget class="QCheckBox" name="checkBox_androidtamer">
                  <property name="text">
                   <string>Android Tamer</string>
                  </property>
@@ -2132,7 +2156,7 @@
                 </widget>
                </item>
                <item row="1" column="3">
-                <widget class="QCheckBox" name="checkBox_15">
+                <widget class="QCheckBox" name="checkBox_apktools">
                  <property name="text">
                   <string>Apktool</string>
                  </property>
@@ -2148,7 +2172,7 @@
                 </widget>
                </item>
                <item row="0" column="1">
-                <widget class="QCheckBox" name="checkBox_12">
+                <widget class="QCheckBox" name="checkBox_mastg">
                  <property name="text">
                   <string>MASTG</string>
                  </property>
@@ -2164,7 +2188,7 @@
                 </widget>
                </item>
                <item row="0" column="2">
-                <widget class="QCheckBox" name="checkBox_10">
+                <widget class="QCheckBox" name="checkBox_frida">
                  <property name="text">
                   <string>Frida</string>
                  </property>
@@ -2180,7 +2204,7 @@
                 </widget>
                </item>
                <item row="0" column="3">
-                <widget class="QCheckBox" name="checkBox_supertuxkart">
+                <widget class="QCheckBox" name="checkBox_androguard">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Kart racing game featuring Tux and his friends.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -2205,7 +2229,7 @@
                 </widget>
                </item>
                <item row="1" column="0">
-                <widget class="QCheckBox" name="checkBox_11">
+                <widget class="QCheckBox" name="checkBox_mobsf">
                  <property name="text">
                   <string>MobSF</string>
                  </property>
@@ -2221,7 +2245,7 @@
                 </widget>
                </item>
                <item row="1" column="1">
-                <widget class="QCheckBox" name="checkBox_13">
+                <widget class="QCheckBox" name="checkBox_nethunter">
                  <property name="text">
                   <string>NetHunter</string>
                  </property>
@@ -2237,7 +2261,7 @@
                 </widget>
                </item>
                <item row="0" column="0">
-                <widget class="QCheckBox" name="checkBox_armagetronad">
+                <widget class="QCheckBox" name="checkBox_drozer">
                  <property name="toolTip">
                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Tron Clone in 3D.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
@@ -2262,7 +2286,7 @@
                 </widget>
                </item>
                <item row="2" column="0">
-                <widget class="QCheckBox" name="checkBox_16">
+                <widget class="QCheckBox" name="checkBox_quarkengine">
                  <property name="text">
                   <string>Quark Engine</string>
                  </property>
@@ -2278,7 +2302,7 @@
                 </widget>
                </item>
                <item row="2" column="1">
-                <widget class="QCheckBox" name="checkBox_17">
+                <widget class="QCheckBox" name="checkBox_bettercap">
                  <property name="text">
                   <string>bettercap</string>
                  </property>
