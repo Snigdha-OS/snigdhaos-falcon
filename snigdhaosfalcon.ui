@@ -44,7 +44,7 @@
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
+             <y>-540</y>
              <width>744</width>
              <height>2125</height>
             </rect>
@@ -381,6 +381,9 @@
                </item>
                <item row="4" column="0">
                 <widget class="QCheckBox" name="checkBox_xsser">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A penetration testing tool for detecting and exploiting XSS vulnerabilites&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
                  <property name="text">
                   <string>XSSer</string>
                  </property>
@@ -392,6 +395,12 @@
                    <width>42</width>
                    <height>42</height>
                   </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>xsser</string>
                  </property>
                 </widget>
                </item>

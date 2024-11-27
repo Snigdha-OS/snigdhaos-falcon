@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD polkit Policy Configuration 1.0//EN"
+"http://www.freedesktop.org/software/polkit/policyconfig-1.dtd">
+<policyconfig>
+
+  <vendor>snigdhaos-falcon</vendor>
+  <vendor_url>http://snigdhaos.org/</vendor_url>
+
+  <action id="org.snigdhaos.snigdhaos-falcon.pkexec.policy.run-root-terminal">
+    <_description>Execute Snigdha OS Falcon Application</_description>
+    <_message>Authentication is required to install/remove packages.</_message>
+    <icon_name>snigdhaos-falcon</icon_name>
+    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/share/snigdhaos/scripts/snigdhaos-falcon/shellrunner.sh</annotate>
+  </action>
+
+</policyconfig>
