@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=SnigdhaOS Falcon
+Comment=SnigdhaOS Falcon Application for Tools installer
+Exec=snigdhaos-falcon
+Icon=snigdhaos-falcon
+Terminal=false
+Type=Application
+Categories=GTK;GNOME;System;Utility;
+NoDisplay=false
+Keywords=SnigdhaOS;Falcon;Tools;Installer;
