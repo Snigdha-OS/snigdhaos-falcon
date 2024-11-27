@@ -13,18 +13,2299 @@
   <property name="windowTitle">
    <string>SnigdhaOSFalcon</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>26</height>
-    </rect>
-   </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="0">
+     <widget class="QDialogButtonBox" name="applyButtons">
+      <property name="standardButtons">
+       <set>QDialogButtonBox::StandardButton::Apply|QDialogButtonBox::StandardButton::Discard</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Offensive Security Tools</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0">
+         <widget class="QScrollArea" name="scrollArea_3">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_3">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>804</width>
+             <height>2101</height>
+            </rect>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_6">
+            <item row="12" column="0">
+             <widget class="QGroupBox" name="groupBox_12">
+              <property name="title">
+               <string>Post-Exploitation</string>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_19">
+               <item row="0" column="2">
+                <widget class="QCheckBox" name="checkBox_freecol">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Turn-based strategy game based on Colonization.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Bloodhound</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>freecol</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="2">
+                <widget class="QCheckBox" name="checkBox_ksirk">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A &lt;span style=&quot; font-style:italic;&quot;&gt;risk&lt;/span&gt;-styled game in which players try to conquer the world by deciding which area to be invaded next.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Koadic</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>ksirk</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="1">
+                <widget class="QCheckBox" name="checkBox_kreversi">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A &lt;span style=&quot; font-style:italic;&quot;&gt;reversi&lt;/span&gt; implementation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Dnscat2</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>kreversi</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="0">
+                <widget class="QCheckBox" name="checkBox_wesnoth">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Free, turn-based tactical strategy game with a high fantasy theme, featuring both single-player, and online/hotseat multiplayer combat.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Mimikartz</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>wesnoth</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QCheckBox" name="checkBox_freeciv">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Multiuser clone of the famous Microprose game of Civilization.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Puppy</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>freeciv</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QCheckBox" name="checkBox_singularity">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Turn-based single player strategy/simulation about a AI hiding, growing and evolving.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Empire</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>singularity</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="0">
+                <widget class="QCheckBox" name="checkBox_18">
+                 <property name="text">
+                  <string>Meterpreter</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="1">
+                <widget class="QCheckBox" name="checkBox_19">
+                 <property name="text">
+                  <string>BeRoot</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="2">
+                <widget class="QCheckBox" name="checkBox_20">
+                 <property name="text">
+                  <string>Pwncat</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QGroupBox" name="groupBox">
+              <property name="title">
+               <string>Exploitation</string>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_8">
+               <item row="3" column="3">
+                <widget class="QCheckBox" name="checkBox_3">
+                 <property name="text">
+                  <string>SearchSploit</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QCheckBox" name="checkBox_kapman">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A clone of &lt;span style=&quot; font-style:italic;&quot;&gt;PacMan&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>jSQL Injection</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>kapman</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="3">
+                <widget class="QCheckBox" name="checkBox_Hedgewars">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Yet another Worms clone, considered to be better than its predecessor by many. Take turns to blast your opponents into oblivion with comedic results! Best in Multiplayer.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>PTF</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>hedgewars</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="2">
+                <widget class="QCheckBox" name="checkBox_kbreakout">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Breakout&lt;/span&gt;-style game.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Armitage</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>kbreakout</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="3">
+                <widget class="QCheckBox" name="checkBox_quadrapassel">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A &lt;span style=&quot; font-style:italic;&quot;&gt;Tetris&lt;/span&gt; remake for GNOME.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Ropper</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>quadrapassel</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="0">
+                <widget class="QCheckBox" name="checkBox_4">
+                 <property name="text">
+                  <string>XSSer</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="1">
+                <widget class="QCheckBox" name="checkBox">
+                 <property name="text">
+                  <string>Exploi-DB</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QCheckBox" name="checkBox_ltris">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Arcade version of Tetris&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>ShellNoob</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>ltris</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QCheckBox" name="checkBox_lbreakout2">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Breakout-style arcade game in the manner of Arkanoid&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>RouterSploit</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>lbreakout2</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QCheckBox" name="checkBox_bomber">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A 2D game with a goal by hitting targets with bombs before their plane crashes into them.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Metasploit</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>bomber</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QCheckBox" name="checkBox_kbounce">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Building walls to limit amount of space occupied by two balls bouncing off the walls&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>sqlmap</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>kbounce</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="2">
+                <widget class="QCheckBox" name="checkBox_mari0">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The Mario game with Portal gun mechanics.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>ysoserial</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>mari0</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="3">
+                <widget class="QCheckBox" name="checkBox_ksnakeduel">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Snake&lt;/span&gt;-like game for 2 players which compete to survive longer than the opponent.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>BeeF</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>ksnakeduel</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="2">
+                <widget class="QCheckBox" name="checkBox_Granatier">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A clone of &lt;span style=&quot; font-style:italic;&quot;&gt;Bomberman&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>SQL Ninja</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>granatier</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="2">
+                <widget class="QCheckBox" name="checkBox_2">
+                 <property name="text">
+                  <string>Pwntools</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QCheckBox" name="checkBox_teeworlds">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Fast-paced 2D multiplayer shooter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Commix</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>teeworlds</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QCheckBox" name="checkBox_chromiumbsu">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Fast paced, arcade-style, top-scrolling space shooter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Exploit Pack</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>chromium-bsu</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QGroupBox" name="groupBox_2">
+              <property name="title">
+               <string>Reconnaissance</string>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_7">
+               <item row="1" column="1">
+                <widget class="QCheckBox" name="checkBox_Kollision">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Moving a ball to avoid other balls&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Mitaka</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>kollision</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="2">
+                <widget class="QCheckBox" name="checkBox_nmap">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Utility for network discovery and security auditing&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>NMap</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>nmap</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QCheckBox" name="checkBox_reconng">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A full-featured Web Reconnaissance framework written in Python.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Recon-NG</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>recon-ng</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QCheckBox" name="checkBox_dnsrecon">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Python script for enumeration of hosts, subdomains and emails from a given domain using google.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>DNSRecon</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>dnsrecon</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="2">
+                <widget class="QCheckBox" name="checkBox_maltego">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;An open source intelligence and forensics application, enabling to easily gather information about DNS, domains, IP addresses, websites, persons, etc.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Maltego</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>maltego</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QCheckBox" name="checkBox_theharvester">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Python tool for gathering e-mail accounts and subdomain names from different public sources (search engines, pgp key servers).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>TheHarvester</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>theharvester</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="3">
+                <widget class="QCheckBox" name="checkBox_fierce">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A DNS reconnaissance tool for locating non-contiguous IP space&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Fierce</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>fierce</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="3">
+                <widget class="QCheckBox" name="checkBox_blobwars">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;2Graphical Nmap frontend and results viewer.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Zenmap</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>zenmap</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QCheckBox" name="checkBox_spiderfoot">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The Open Source Footprinting Tool&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>SpiderFoot</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QCheckBox" name="checkBox_masscan">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Masscan</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="2">
+                <widget class="QCheckBox" name="checkBox_zmap">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Fast network scanner designed for Internet-wide network surveys&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Zmap</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="24" column="0">
+             <widget class="QGroupBox" name="groupBox_8">
+              <property name="title">
+               <string>Reporting and Documentation</string>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_15">
+               <item row="0" column="1">
+                <widget class="QCheckBox" name="checkBox_angband">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Roguelike dungeon exploration game based on the writings of JRR Tolkien.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Faraday</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>angband</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="2">
+                <widget class="QCheckBox" name="checkBox_stonesoup">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Original dungeon crawl game&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Serpico</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>stone-soup</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="3">
+                <widget class="QCheckBox" name="checkBox_cataclysm">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Post-apocalyptic roguelike.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>MagicTree</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>cataclysm-dda</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="1">
+                <widget class="QCheckBox" name="checkBox_glhack">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;An OpenGL-based clone of NetHack.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Lair-Framework</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>glhack</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QCheckBox" name="checkBox_rogue">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Original dungeon crawl game&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Dradis</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>rogue</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QCheckBox" name="checkBox_dwarffortress">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Single-player fantasy game. You control a dwarven outpost or an adventurer in a randomly generated persistent world.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>DefectDojo</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>dwarffortress</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="10" column="0">
+             <widget class="QGroupBox" name="groupBox_5">
+              <property name="title">
+               <string>Reverse Engineering</string>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_12">
+               <item row="0" column="1">
+                <widget class="QCheckBox" name="checkBox_warsow">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;fast paced multiplayer FPS focusing on movement and trick jumps.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Ghidra</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>warsow</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QCheckBox" name="checkBox_sauerbraten">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Improved version of the Cube engine.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Radare 2</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>sauerbraten</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="2">
+                <widget class="QCheckBox" name="checkBox_xonotic">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;fast paced multiplayer FPS focusing on movement and trick jumps.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Angr</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>xonotic</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QGroupBox" name="groupBox_3">
+              <property name="title">
+               <string>Network-Based Attacks</string>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_9">
+               <item row="0" column="1">
+                <widget class="QCheckBox" name="checkBox_kajongg">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;An implementation of &lt;a href=&quot;https://en.wikipedia.org/wiki/Mahjong&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#646464;&quot;&gt;Mahjong&lt;/span&gt;&lt;/a&gt; for 4 players&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Ettercap</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>kajongg</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QCheckBox" name="checkBox_lskat">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A variation of &lt;a href=&quot;https://en.wikipedia.org/wiki/Skat_(card_game)&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#646464;&quot;&gt;Skat&lt;/span&gt;&lt;/a&gt; card game for two players.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>DSniff</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>lskat</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="3">
+                <widget class="QCheckBox" name="checkBox_ksquares">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A &lt;a href=&quot;https://en.wikipedia.org/wiki/Dots_and_Boxes&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#646464;&quot;&gt;dots-and-boxes&lt;/span&gt;&lt;/a&gt; game for two players&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Netcat</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>ksquares</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="2">
+                <widget class="QCheckBox" name="checkBox_KPatience">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A set of solitarire card games&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Arpspoof</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>kpat</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QCheckBox" name="checkBox_Aisleriot">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A collection of solitaire card games.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>WireShark</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>aisleriot</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QCheckBox" name="checkBox_gnomechess">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A 2D chess game which can use third party chess engines.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>hping3</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>gnome-chess</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="2">
+                <widget class="QCheckBox" name="checkBox_pychess">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;An advanced chess client for linux following the GNOME Human Interface Guidelines&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Yersinia</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>pychess</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="3">
+                <widget class="QCheckBox" name="checkBox_knights">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Chess board by KDE with XBoard protocol support.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Scapy</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>knights</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="14" column="0">
+             <widget class="QGroupBox" name="groupBox_9">
+              <property name="title">
+               <string>Social Engineering and Phishing</string>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_16">
+               <item row="0" column="1">
+                <widget class="QCheckBox" name="checkBox_naev">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Open source, 2D space trading and combat game, taking inspiration from the Escape Velocity series.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Gophish</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>naev</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="2">
+                <widget class="QCheckBox" name="checkBox_minetest">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Voxel-based sandbox game engine and game.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>King Phisher</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>minetest</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QCheckBox" name="checkBox_endlesssky">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Open source, 2D space trading and combat game similar to the classic Escape Velocity series.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>SET</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>endless-sky</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="3">
+                <widget class="QCheckBox" name="checkBox_openbve">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Free-as-in-freedom train simulator placed in the public domain.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>PhishX</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>openbve</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="11" column="0">
+             <widget class="QGroupBox" name="groupBox_11">
+              <property name="title">
+               <string>Vulnerablity Scanning</string>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_18">
+               <item row="0" column="1">
+                <widget class="QCheckBox" name="checkBox_widelands">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Slow-paced strategy like &amp;quot;the Settlers 2&amp;quot;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>w3af</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>widelands</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QCheckBox" name="checkBox_0ad">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;3D and historically-based real-time strategy game, alpha stage. Based on the Age of Empires series.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>OpenVAS</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>0ad</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="0">
+                <widget class="QCheckBox" name="checkBox_megaglest">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Fork of Glest, a 3D real-time strategy game in a fantastic world.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Nessus</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>megaglest</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="2">
+                <widget class="QCheckBox" name="checkBox_openra">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Real-time strategy game written in C# and based on the Command &amp;amp; Conquer game franchise&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Nikto</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>openra</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="1">
+                <widget class="QCheckBox" name="checkBox_springlobby">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A free cross-platform lobby client for the Spring RTS project&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Vuls</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>springlobby</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="13" column="0">
+             <widget class="QGroupBox" name="groupBox_13">
+              <property name="title">
+               <string>Wireless Attacks</string>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_20">
+               <item row="0" column="0">
+                <widget class="QCheckBox" name="checkBox_lincity">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;City simulation game in which you are required to build and maintain a city. You can win the game either by building a sustainable economy or by evacuating all citizens with spaceships.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Kismet</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>lincity-ng</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="2">
+                <widget class="QCheckBox" name="checkBox_simutrans">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Another Transport simulation that works on linux with sdl.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Reaver</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>simutrans</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QCheckBox" name="checkBox_konquest">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A turn-based game in which the player wage wars by managing a fleet of spaceships and conquering other planets.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>PixieWPS</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>konquest</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QCheckBox" name="checkBox_openttd">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Open source clone of the Microprose game &amp;quot;Transport Tycoon Deluxe&amp;quot;, a popular game originally written by Chris Sawyer. It attempts to mimic the original game as closely as possible while extending it with new features.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>airgeddon</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>openttd</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="1">
+                <widget class="QCheckBox" name="checkBox_21">
+                 <property name="text">
+                  <string>Wifi Pumpkin</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="2">
+                <widget class="QCheckBox" name="checkBox_openrct2">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Free reimplementation of the game &amp;quot;RollerCoaster Tycoon 2 (RCT2)&amp;quot; with multiplayer support. It requires a copy of the original game to play it.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Aircrack-ng</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>openrct2</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="19" column="0">
+             <widget class="QGroupBox" name="groupBox_14">
+              <property name="title">
+               <string>Web App Pen Testing</string>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_21">
+               <item row="0" column="1">
+                <widget class="QCheckBox" name="checkBox_22">
+                 <property name="text">
+                  <string>OWASP ZAP</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QCheckBox" name="checkBox_renpy">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Visual novel engine with a &lt;a href=&quot;https://www.katawa-shoujo.com/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#646464;&quot;&gt;rich repository&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Burpsuite</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>katawa-shoujo-bin</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="2">
+                <widget class="QCheckBox" name="checkBox_23">
+                 <property name="text">
+                  <string>Arachni</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QCheckBox" name="checkBox_24">
+                 <property name="text">
+                  <string>Wfuzz</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QCheckBox" name="checkBox_25">
+                 <property name="text">
+                  <string>Skipfish</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QGroupBox" name="groupBox_4">
+              <property name="title">
+               <string>Password and Brute Force Attacks</string>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_10">
+               <item row="3" column="2">
+                <widget class="QCheckBox" name="checkBox_5">
+                 <property name="text">
+                  <string>CeWL</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="3">
+                <widget class="QCheckBox" name="checkBox_6">
+                 <property name="text">
+                  <string>Patator</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="3">
+                <widget class="QCheckBox" name="checkBox_kgoldrunner">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A platform game with the goal of collecting gold.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Hydra</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>kgoldrunner</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QCheckBox" name="checkBox_openmw">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Attempt to reimplement the popular role-playing game &lt;a href=&quot;https://en.wikipedia.org/wiki/Morrowind&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#646464;&quot;&gt;Morrowind&lt;/span&gt;&lt;/a&gt;. OpenMW aims to be a fully playable, open source implementation of the game's engine.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Medusa</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>openmw</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QCheckBox" name="checkBox_manaplus">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Serious effort to create an innovative free and open source MMORPG&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>John The Ripper</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>manaplus</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="2">
+                <widget class="QCheckBox" name="checkBox_freedroidrpg">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Mature science fiction role playing game set in the future.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Crunch</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>freedroidrpg</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QCheckBox" name="checkBox_frogatto">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Serious effort to create an innovative free and open source MMORPG&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Hashcat</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>frogatto</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="1">
+                <widget class="QCheckBox" name="checkBox_SuperTux">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A platform game with the goal of collecting gold.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Rainbowcrack</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>supertux</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="0">
+                <widget class="QCheckBox" name="checkBox_7">
+                 <property name="text">
+                  <string>Ophcrack</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="1">
+                <widget class="QCheckBox" name="checkBox_8">
+                 <property name="text">
+                  <string>pydictor</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="2">
+                <widget class="QCheckBox" name="checkBox_9">
+                 <property name="text">
+                  <string>Kraken</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="8" column="0">
+             <widget class="QGroupBox" name="groupBox_7">
+              <property name="title">
+               <string>Mobile Security</string>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_14">
+               <item row="1" column="2">
+                <widget class="QCheckBox" name="checkBox_14">
+                 <property name="text">
+                  <string>Android Tamer</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="3">
+                <widget class="QCheckBox" name="checkBox_15">
+                 <property name="text">
+                  <string>Apktool</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QCheckBox" name="checkBox_12">
+                 <property name="text">
+                  <string>MASTG</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="2">
+                <widget class="QCheckBox" name="checkBox_10">
+                 <property name="text">
+                  <string>Frida</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="3">
+                <widget class="QCheckBox" name="checkBox_supertuxkart">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Kart racing game featuring Tux and his friends.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Androguard</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>supertuxkart</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QCheckBox" name="checkBox_11">
+                 <property name="text">
+                  <string>MobSF</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QCheckBox" name="checkBox_13">
+                 <property name="text">
+                  <string>NetHunter</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QCheckBox" name="checkBox_armagetronad">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Tron Clone in 3D.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Drozer</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                 <property name="packageName" stdset="0">
+                  <string>armagetronad</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QCheckBox" name="checkBox_16">
+                 <property name="text">
+                  <string>Quark Engine</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QCheckBox" name="checkBox_17">
+                 <property name="text">
+                  <string>bettercap</string>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="package-x-generic"/>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>42</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>
